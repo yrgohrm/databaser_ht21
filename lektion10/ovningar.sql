@@ -46,3 +46,4 @@ SELECT fldMake, fldModel, ROUND(AVG(fldPrice), -3)
 FROM tblCarSale
 WHERE fldMeterCount < 10000
 GROUP BY fldMake, fldModel;
+
